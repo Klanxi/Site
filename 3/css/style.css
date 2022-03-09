@@ -99,6 +99,8 @@ a {
   background-repeat: no-repeat;
 }
 
+
+
 .container-title {
   padding-top: 100px;
   padding-left: 100px;
@@ -121,7 +123,7 @@ p {
   padding-left: 180px;
   padding-bottom: 20px;
 }
-
+ 
 .container-figure {
   display: inline;
   padding-left: 200px;
@@ -140,4 +142,29 @@ table {
 
 .table td, .table th {
   padding: 5px;
+}
+
+.container-module-text { 
+  font-family: 'Gilroy','ExtraBold';
+  font-size: 45px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.container-modules { 
+  padding-left: 450px;
+  padding-right: 1470px;
+  display: inline-block;
+}
+
+.container-module-block { 
+  list-style: none;
+}
+
+.li-head { 
+  font-family: 'Gilroy','ExtraBold';
+  padding-left: 10px;
+  font-size: 36px;
+  color: #2f1ce4;
+  font-weight: bold;
 }
